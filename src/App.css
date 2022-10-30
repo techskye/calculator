@@ -1,0 +1,46 @@
+.calculator{
+  background-color: aqua;
+  color: white;
+  border-radius: 4px;
+}
+.screen{
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding: 16px;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.screen span {
+	font-size: 34px;
+	color: #888;
+}
+button {
+	appearance: none;
+	background-color: rgb(161, 73, 73);
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 16px;
+	padding: 16px;
+	cursor: pointer;
+	transition: 0.4s;
+	width: 48px;
+	/* overflow: hidden; */
+}
+button:hover{
+	color: antiquewhite;
+	background-color: rgb(46, 39, 39);
+}
+
+.but button{
+	width: 80px;
+}
+.signs button{
+	background-color: red;
+	transition: 0.4s;
+}
+.signs button:hover{
+	background-color: rgb(165, 25, 25);
+}
